@@ -12,19 +12,19 @@ This project demonstrates **Over-The-Air (OTA) firmware updates** for the **ESP3
 
 ## 📁 Repository Structure
 esp32-ota-firmware/
-├── firmware.bin          # ✅ Compiled binary of your ESP32 firmware
-├── version.json          # ✅ JSON file that includes the latest version and .bin URL
-└── main.ino              # ✅ Arduino code that performs OTA update
+├── firmware.bin            # ✅ Compiled binary of your ESP32 firmware
+├── version.json            # ✅ JSON file that includes the latest version and .bin URL
+└── main.ino                # ✅ Arduino code that performs OTA update
 
 ``
 ## 📄 `version.json` Example
-```json
+json
 {
   "version": "1.0.3",
   "bin_url": "https://github.com/gautamk10/esp32-ota-firmware/raw/main/firmware.bin"
 }
- ##🔌 How It Works
-```
+
+ ##🔌How It Works
 1. ESP32 boots and connects to WiFi.
 2. It fetches the `version.json` file hosted on GitHub.
 3. Compares the current firmware version (`CURRENT_VERSION`) with the latest version from the JSON.
@@ -70,6 +70,8 @@ OTA successful! Rebooting...
  ✍️ Author
 **Gautam Kumar
 Embedded Software Developer | [GitHub @gautamk10](https://github.com/gautamk10)
+
  📜 License
+ 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
