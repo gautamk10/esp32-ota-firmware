@@ -16,16 +16,15 @@ esp32-ota-firmware/
 ├── version.json          # ✅ JSON file that includes the latest version and .bin URL
 └── main.ino              # ✅ Arduino code that performs OTA update
 
-
+``
 ## 📄 `version.json` Example
 ```json
 {
   "version": "1.0.3",
   "bin_url": "https://github.com/gautamk10/esp32-ota-firmware/raw/main/firmware.bin"
 }
-
-## 🔌 How It Works
-
+ ##🔌 How It Works
+```
 1. ESP32 boots and connects to WiFi.
 2. It fetches the `version.json` file hosted on GitHub.
 3. Compares the current firmware version (`CURRENT_VERSION`) with the latest version from the JSON.
@@ -65,15 +64,13 @@ OTA successful! Rebooting...
 
 ## 📸 Demo (Optional)
 
-
 <img width="743" height="357" alt="Screenshot 2025-07-31 133851" src="https://github.com/user-attachments/assets/6c33149a-8556-4d73-bd26-93478c5c4ff5" />
 
 
 <img width="821" height="388" alt="Screenshot 2025-07-31 133325" src="https://github.com/user-attachments/assets/52c8fed6-233c-43dc-a050-0a92a508e413" />
 
-
  ✍️ Author
-**Gautam Kumar**
+**Gautam Kumar
 Embedded Software Developer | [GitHub @gautamk10](https://github.com/gautamk10)
  📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
