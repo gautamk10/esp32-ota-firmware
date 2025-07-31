@@ -64,7 +64,13 @@ New version detected. Starting OTA...
 OTA successful! Rebooting...
 
 ## 📸 Demo (Optional)
-Add screenshots or serial monitor logs showing OTA in action.
+
+
+<img width="743" height="357" alt="Screenshot 2025-07-31 133851" src="https://github.com/user-attachments/assets/6c33149a-8556-4d73-bd26-93478c5c4ff5" />
+
+
+<img width="821" height="388" alt="Screenshot 2025-07-31 133325" src="https://github.com/user-attachments/assets/52c8fed6-233c-43dc-a050-0a92a508e413" />
+
 
  ✍️ Author
 **Gautam Kumar**
